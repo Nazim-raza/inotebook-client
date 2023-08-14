@@ -9,7 +9,7 @@ const Signup = (props) => {
     cpassword: "",
   });
   let history = useNavigate();
-  const host = "https://inotebook-server-nine.vercel.app";
+  const host = "https://inotebook-server-two.vercel.app";
   const handleSubmit = async (e) => {
     e.preventDefault();
 
